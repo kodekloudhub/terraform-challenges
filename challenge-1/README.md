@@ -71,7 +71,7 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
     ...is going to be rather complex as we have to drill right down into the pod template spec to get the label value.
     You could cheat and just put `name = "webapp"` but that defeats the object and doesn't create a dependency between deployment and service.
 
-    Using `vi`, create [frontend.tf](./resources/webapp-service.tf)
+    Using `vi`, create [webapp-service.tf](./resources/webapp-service.tf)
     </detail>
 1.  <details>
     <summary>DEPLOY!</summary>
