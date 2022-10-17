@@ -17,7 +17,7 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
     which terraform
     ```
 
-    > Nothing! Therefore we must install it. Note that unizp is also not installed, and we need that too!
+    > Nothing! Therefore we must install it. Note that unzip is also not installed, and we need that too!
 
     ```bash
     apt update
