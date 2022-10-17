@@ -37,7 +37,7 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
 
     Click on the **USE PROVIDER** button for the configuration block. Copy this, and use `vi` to create [provider.tf](./resources/provider.tf). Paste in and adjust as per the question requirements.
 
-    Now we can initialize the rovider
+    Now we can initialize the provider
 
     ```bash
     terraform init
@@ -58,7 +58,7 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
 
     Refer to the provider documentation for [kubernetes_service](https://registry.terraform.io/providers/hashicorp/kubernetes/2.11.0/docs/resources/service)
 
-    Now this one's a bit tricky. We need to associate the service with the label assinged to the pods of the deployment. This means that the section
+    Now this one's a bit tricky. We need to associate the service with the label assigned to the pods of the deployment. This means that the section
 
     ```
     spec {
