@@ -38,49 +38,49 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
 
     Refer to the provider documentation for [docker-image](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/image)
 
-    Using `vi`, create [php-httpd-image.tf](./php-httpd-image.tf)
+    Using `vi`, create [php-httpd-image.tf](./resources/php-httpd-image.tf)
     </details>
 1.  <details>
     <summary>mariadb-custom-image</br>Create a terraform resource named mariadb-image</summary>
 
     Refer to the provider documentation for [docker-image](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/image)
 
-    Using `vi`, create [mariadb-custom-image.tf](./mariadb-custom-image.tf)
+    Using `vi`, create [mariadb-custom-image.tf](./resources/mariadb-custom-image.tf)
     </details>
 1.  <details>
     <summary>mariadb-volume</br>Create a terraform resource named mariadb_volume</summary>
 
     Refer to the provider documentation for [docker-volume](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/volume)
 
-    Using `vi`, create [mariadb-volume.tf](./mariadb-volume.tf)
+    Using `vi`, create [mariadb-volume.tf](./resources/mariadb-volume.tf)
     </details>
 1.  <details>
     <summary>private_network</br>Create a terraform resource named private_network</summary>
 
     Refer to the provider documentation for [docker-network](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/network)
 
-    Using `vi`, create [private-network.tf](./private-network.tf)
+    Using `vi`, create [private-network.tf](./resources/private-network.tf)
     </details>
 1.  <details>
     <summary>db</br>Define a terraform resource mariadb for creating docker container</summary>
 
     Refer to the provider documentation for [docker-container](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/container)
 
-    Using `vi`, create [db.tf](./db.tf)
+    Using `vi`, create [db.tf](./resources/db.tf)
     </details>
 1.  <details>
     <summary>webserver</br>Define a terraform resource php-httpd for creating docker container</summary>
 
     Refer to the provider documentation for [docker-container](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/container)
 
-    Using `vi`, create [webserver.tf](./webserver.tf)
+    Using `vi`, create [webserver.tf](./resources/webserver.tf)
     </details>
 1.  <details>
     <summary>db_dashboard</br>Define a terraform resource phpmyadmin for docker container</summary>
 
     Refer to the provider documentation for [docker-container](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/container)
 
-    Using `vi`, create [db-dashboard.tf](./db-dashboard.tf)
+    Using `vi`, create [db-dashboard.tf](./resources/db-dashboard.tf)
     </details>
 1.  <details>
     <summary>DEPLOY!</summary>
