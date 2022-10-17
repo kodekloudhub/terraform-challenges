@@ -43,6 +43,8 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
 1.  <details>
     <summary>mariadb-custom-image</br>Create a terraform resource named mariadb-image</summary>
 
+    Refer to the provider documentation for [docker-image](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/image)
+
     Using `vi`, create [mariadb-custom-image.tf](./mariadb-custom-image.tf)
     </details>
 1.  <details>
