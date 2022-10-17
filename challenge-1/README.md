@@ -4,7 +4,7 @@ In this challenge we will deploy several Kubernetes resources using terraform. I
 
 Note that `kubectl` is installed on the host, so you can check your deployed resources in the usual way.
 
-Utilize /root/terraform_challenge directory to store your Terraform configuration files.
+Utilize `/root/terraform_challenge` directory to store your Terraform configuration files.
 
 We will create the resources in the order of their dependencies, thus you may run plan/apply at any stage, or wait till the end.
 
