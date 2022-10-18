@@ -51,7 +51,7 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
 1.  <details>
     <summary>EC2_Elastic_IP</br>Create a local-exec provisioner for the eip resource and use it to print the attribute called public_dns to a file /root/citadel_public_dns.txt on the iac-server</summary>
 
-    Refer to the provider documentation for [aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip) and the core documentation for [local-exec provisioner](https://www.terraform.io/language/resources/provisioners/local-exec)
+    Refer to the provider documentation for [aws_eip](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip) and the core documentation for [local-exec provisioner](https://www.terraform.io/language/resources/provisioners/local-exec)
 
     Using `vi`, create [ec2_elastic_ip.tf](./resources/ec2_elastic_ip.tf)
 
