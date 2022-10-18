@@ -36,7 +36,7 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
 
     Refer to the provider documentation for [aws_key_pair](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/key_pair) and the core documentation for the [file](https://www.terraform.io/language/functions/file) function.
 
-    Using `vi`, create [ec2_elastic_ip.tf](./resources/ec2_elastic_ip.tf)
+    Using `vi`, create [ssh-key-citadel.tf](./resources/ssh-key-citadel.tf)
 
 1.  <details>
     <summary>citadel/nginx-script</br>Create the EC2 instance</summary>
