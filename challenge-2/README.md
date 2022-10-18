@@ -89,4 +89,4 @@ Note that these challenges do not use an embedded VSCode IDE, therefore we must 
     terraform plan
     terraform apply
     ```
-
+    </details>
